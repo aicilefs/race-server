@@ -1,0 +1,11 @@
+{
+  "name": "race-server",
+  "main": "src/index.js",
+  "compatibility_date": "2025-11-01",
+  "durable_objects": {
+    "bindings": [{ "name": "TOWN", "class_name": "Town" }]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["Town"] }
+  ]
+}
